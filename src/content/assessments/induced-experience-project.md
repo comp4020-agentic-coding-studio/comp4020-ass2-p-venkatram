@@ -5,7 +5,7 @@ description:
   experiences, then document what actually happened
 week: 8
 due: 2027-04-12T12:00:00+10:00
-weight: 25
+weight: 20
 marking:
   mode: weighted
   criteria:

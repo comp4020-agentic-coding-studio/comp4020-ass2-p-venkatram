@@ -5,7 +5,7 @@ description:
   half of the semester
 week: 4
 due: 2027-03-15T12:00:00+10:00
-weight: 20
+weight: 15
 marking:
   mode: weighted
   criteria:

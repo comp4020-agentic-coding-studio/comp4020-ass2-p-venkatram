@@ -5,7 +5,7 @@ description:
   together near the end of term
 week: 11
 due: 2027-05-03T12:00:00+10:00
-weight: 20
+weight: 15
 marking:
   mode: weighted
   criteria:

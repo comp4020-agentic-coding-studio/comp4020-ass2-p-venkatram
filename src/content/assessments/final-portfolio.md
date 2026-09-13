@@ -5,7 +5,7 @@ description:
   experience can ever close the gap with living it
 week: 12
 due: 2027-05-24T12:00:00+10:00
-weight: 35
+weight: 30
 marking:
   mode: holistic
   description:
