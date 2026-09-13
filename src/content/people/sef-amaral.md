@@ -1,9 +1,13 @@
 ---
 title: Sef Amaral
-role: Tutor
+role: tutor
 description:
   Runs the weekly practicum, drawing on a background in contemplative and
   somatic practice to keep each induction honest, safe and actually noticed
+photo: ../../assets/images/sef-amaral.png
+photoAlt:
+  Placeholder illustration of Sef Amaral as a flat two-ink silhouette with a
+  bronze spiral motif
 ---
 
 Sef Amaral comes to this course from a background in contemplative and

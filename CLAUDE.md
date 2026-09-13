@@ -16,11 +16,17 @@ accordion on the home page and the arc described in `PROCESS.md`.
 - `teachers:` references (`wren-okafor`, `sef-amaral`) must resolve against
   `src/content/people/` — an unresolved reference fails the build, not just a
   test.
-- Imagery (`src/assets/images/hero-home.avif`, `card.png`) is hand-authored
-  SVG (flat two-ink gold/black shapes on the paper background), rasterized
-  with `sharp` as a one-off step. Regenerate both together if either changes,
-  keep them thematically matched, and don't commit the SVG source or the
-  rasterize script — only the final images.
+- Imagery (`src/assets/images/hero-home.avif`, `card.png`, and the two people
+  placeholders `wren-okafor.png`/`sef-amaral.png`) is hand-authored SVG (flat
+  two-ink gold/black/bronze shapes on the paper background), rasterized with
+  `sharp` as a one-off step. Regenerate the home images together if either
+  changes, keep them thematically matched, and don't commit the SVG source or
+  the rasterize script — only the final images.
+- `people` entries' `role:` field must stay lowercase (`convenor`, `tutor`,
+  `guest`, `other`) — `PeopleGrid.astro`, `TeachingTeam.astro` and
+  `people/[slug].astro` all key their display-label and sort-order maps on
+  those exact lowercase strings, and a capitalized value silently falls
+  through both.
 - The grief practicum (week 11) always needs its opt-out/alternative path
   live on `/policies/` before it can be treated as ready — check that page
   hasn't drifted if week 11's content changes.

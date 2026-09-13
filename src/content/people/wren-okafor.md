@@ -1,10 +1,14 @@
 ---
 title: Wren Okafor
-role: Convenor
+role: convenor
 description:
   Cognitive scientist and phenomenologist who designed the course's
   induce-notice-describe method after years of frustration with description
   that never touched the thing it described
+photo: ../../assets/images/wren-okafor.png
+photoAlt:
+  Placeholder illustration of Wren Okafor as a flat two-ink silhouette with a
+  gold sunburst behind the head
 ---
 
 Wren Okafor trained in cognitive science before turning to phenomenology out
