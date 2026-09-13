@@ -1,11 +1,26 @@
-# Your harness
+# Working rules for this repo
 
-This file is yours, and it arrives with no rules in it on purpose --- this note
-is all there is, and it goes when you write your own. The rules you hold the
-agent to are part of what gets marked, so they should be rules you decided on.
+SLOP1163: Experience Subjective Consciousness. 12 teaching weeks, one session
+(practicum) and one lecture per week, fixed narrative order — do not
+reshuffle the four units (Immediate Sensation / The Idling Mind / Memory &
+Others / Scale & Release) without deliberately updating the syllabus
+accordion on the home page and the arc described in `PROCESS.md`.
 
-Nothing about the starter is recorded here. The platform under you is fixed and
-documented in `README.md`, and the
-[course website](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/)
-publishes this deliverable's brief and spec. Read both before you plan or build;
-what the agent needs to carry from either is your call.
+- Run `pnpm check` before every commit. It typechecks, builds (a11y, link,
+  and dangling-reference checks all run as part of the build), and runs
+  `spec/*.test.ts`.
+- Assessment `weight` fields must sum to exactly 100 across
+  `src/content/assessments/` — `spec/course-shape.test.ts` enforces this.
+- Every week 1-12 needs exactly one file in `src/content/sessions/` and one in
+  `src/content/lectures/` — also enforced by `spec/course-shape.test.ts`.
+- `teachers:` references (`wren-okafor`, `sef-amaral`) must resolve against
+  `src/content/people/` — an unresolved reference fails the build, not just a
+  test.
+- Imagery (`src/assets/images/hero-home.avif`, `card.png`) is hand-authored
+  SVG (flat two-ink gold/black shapes on the paper background), rasterized
+  with `sharp` as a one-off step. Regenerate both together if either changes,
+  keep them thematically matched, and don't commit the SVG source or the
+  rasterize script — only the final images.
+- The grief practicum (week 11) always needs its opt-out/alternative path
+  live on `/policies/` before it can be treated as ready — check that page
+  hasn't drifted if week 11's content changes.
