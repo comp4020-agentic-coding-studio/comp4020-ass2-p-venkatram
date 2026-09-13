@@ -2,42 +2,115 @@
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import { withBase } from "astro-theme-university/url";
 import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
 
-// STARTER_CONTENT: replace the hero artwork and its alt text below, then
-// remove this comment.
+const units = [
+  {
+    title: "Unit 1 — Immediate Sensation",
+    blurb: "the body registers something all at once",
+    weeks: [
+      { n: 1, title: "The shock of cold ocean water", href: "/sessions/01-cold-shock/" },
+      { n: 2, title: "Uncontrollable laughter", href: "/sessions/02-uncontrollable-laughter/" },
+      { n: 3, title: "Tired satisfaction after hard labor", href: "/sessions/03-earned-ache/" },
+    ],
+  },
+  {
+    title: "Unit 2 — The Idling Mind",
+    blurb: "consciousness with nothing pinning it down",
+    weeks: [
+      { n: 4, title: "Unstructured boredom", href: "/sessions/04-unstructured-boredom/" },
+      { n: 5, title: "The drift into sleep", href: "/sessions/05-drift-into-sleep/" },
+      { n: 6, title: "The spark of intuition", href: "/sessions/06-spark-of-intuition/" },
+    ],
+  },
+  {
+    title: "Unit 3 — Memory & Others",
+    blurb: "experience that only exists between people, or across time",
+    weeks: [
+      { n: 7, title: "Nostalgia triggered by a scent", href: "/sessions/07-nostalgia-by-scent/" },
+      { n: 8, title: "Comfortable silence with someone trusted", href: "/sessions/08-comfortable-silence/" },
+      { n: 9, title: "The relief of a resolved worry", href: "/sessions/09-relief-of-resolved-worry/" },
+    ],
+  },
+  {
+    title: "Unit 4 — Scale & Release",
+    blurb: "the self against something larger than itself",
+    weeks: [
+      { n: 10, title: "Awe under a dark night sky", href: "/sessions/10-awe-under-dark-sky/" },
+      { n: 11, title: "Grief", href: "/sessions/11-grief/" },
+      { n: 12, title: "The peace of letting go", href: "/sessions/12-letting-go/" },
+    ],
+  },
+];
+
+const skills = [
+  "Tell apart describing an experience and actually having it",
+  "Design and run a deliberate induction of a target inner state",
+  "Keep a disciplined, timestamped phenomenological log",
+  "Argue a defensible position on the hard problem of consciousness, using your own evidence",
+];
 ---
 
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
+  heroImageAlt="A flat gold-and-black two-ink illustration of a figure mid-dive, concentric ripples spreading from the point of impact with the water"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
-  <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
-  <h2>What you will do</h2>
-  <p>
-    Say what a student spends their time on — the making, reading, arguing or
-    measuring that fills the weeks. Name the artefact they walk out with.
-  </p>
+  <ul class="info-badges" aria-label="Course details">
+    <li>12 weeks</li>
+    <li>Practicum-based</li>
+    <li>Level 1000</li>
+  </ul>
+
+  <h2>Skills you'll gain</h2>
+  <ul class="skills-list">
+    {skills.map((skill) => <li>{skill}</li>)}
+  </ul>
 
   <h2>Who it is for</h2>
   <p>
-    Say who this is aimed at and what they need to already know. Be specific
-    enough that someone can rule themselves in or out without emailing you.
+    Anyone willing to treat their own inner life as something worth
+    deliberately, carefully disturbing — no prior philosophy or cognitive
+    science background assumed. What's required instead is a willingness to
+    actually do each week's induction rather than just read about it.
   </p>
+
+  <h2>Syllabus</h2>
+  <div class="syllabus">
+    {
+      units.map((unit) => (
+        <details class="syllabus-unit">
+          <summary>
+            <span class="syllabus-unit-title">{unit.title}</span>
+            <span class="syllabus-unit-blurb">{unit.blurb}</span>
+          </summary>
+          <ol>
+            {unit.weeks.map((week) => (
+              <li>
+                <a href={withBase(week.href)}>
+                  Week {week.n}: {week.title}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </details>
+      ))
+    }
+  </div>
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
     <Card title={sessionLabels.plural} href="/sessions/">
-      <p>The weekly schedule and what happens in each teaching session.</p>
+      <p>The weekly practicum: what to induce, notice and write down.</p>
     </Card>
     <Card title="Assessment" href="/assessments/">
       <p>What is marked, what it is worth, and when it is due.</p>
@@ -64,5 +137,89 @@ import { sessionLabels, siteConfig } from "../site-config";
     color: var(--at-text-secondary);
     background: var(--at-bg-alt);
     font-size: 0.9rem;
+  }
+
+  .info-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .info-badges li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .info-badges li::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--at-primary);
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 0.75rem 1.5rem;
+    padding: 0;
+    margin: 0 0 2rem;
+    list-style: none;
+  }
+
+  .skills-list li {
+    position: relative;
+    padding-left: 1.6rem;
+  }
+
+  .skills-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--at-primary);
+    font-weight: 700;
+  }
+
+  .syllabus {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .syllabus-unit {
+    border: 1px solid var(--at-bg-alt);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .syllabus-unit summary {
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6rem;
+    font-weight: 600;
+  }
+
+  .syllabus-unit-blurb {
+    font-weight: 400;
+    color: var(--at-text-secondary);
+    font-size: 0.9rem;
+  }
+
+  .syllabus-unit ol {
+    margin: 0.75rem 0 0;
+    padding-left: 1.25rem;
+  }
+
+  .syllabus-unit li + li {
+    margin-top: 0.35rem;
   }
 </style>
