@@ -17,7 +17,7 @@ marking:
       weight: 20
 spec:
   - submitted by the deadline, as one document containing a dated entry for
-    at least 9 of weeks 1–10's practicums
+    at least 6 of weeks 1–10's practicums
   - each entry was written during or immediately after that week's practicum,
     not reconstructed later — entries carry their original timestamp
   - entries that didn't go as planned, or where nothing much happened, are
