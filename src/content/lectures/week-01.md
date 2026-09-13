@@ -1,30 +1,30 @@
 ---
-title: Opening lecture
+title: Why describing isn't living
 description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+  Orientation — the explanatory gap, Nagel's bat, and why this course is a
+  practicum instead of a reading list
 week: 1
 date: 2027-02-22
 teachers:
-  - marisol-quaye
+  - wren-okafor
 slides: /decks/week-01/
 related:
-  - sessions/01-getting-started
+  - sessions/01-cold-shock
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
-
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
-
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
+Every other course you've taken about the mind hands you a description and
+calls it understanding. This one starts from the opposite premise: a perfect
+third-person account of what happens in a nervous system during pain still
+leaves out the one thing pain actually is to the person having it. That gap —
+between the complete physical story and the felt fact of experience — is
+usually called the explanatory gap, and it's the reason this course is a
+practicum rather than a seminar.
 
 ## Outline
 
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+- the hard problem of consciousness, stated plainly: not "how does the brain
+  work" but "why is there something it is like to be a brain doing that"
+- Nagel's bat, and why imagining sonar tells you nothing about having it
+- the shape of the semester: four units, twelve inductions, one open question
+- what "doing the practicum" actually requires of you each week, and why
+  skipping straight to the write-up defeats the point
