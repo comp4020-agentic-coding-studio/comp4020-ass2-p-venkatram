@@ -23,6 +23,10 @@ Letting go is the release the rest of the semester has been circling: week 1
 was the body seized by something outside its control; this week is choosing,
 consciously, to stop seizing back.
 
+*No grant lands this week. This is also the last week to account for every
+dollar disbursed across the semester — see [policies](/policies/) if
+anything remains unspent or unreceipted.*
+
 ## Before the practicum
 
 Name something specific you are currently trying to control — a

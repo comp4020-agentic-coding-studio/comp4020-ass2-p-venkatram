@@ -22,6 +22,10 @@ resists being summoned alone. Uncontrollable laughter is one of the few
 everyday experiences with an unambiguous physical tell — you can point to
 exactly when it stopped being a decision.
 
+*No grant lands this week — funding runs on alternate weeks. If you're
+drawing on money carried over from an earlier week to fund this practicum,
+see [policies](/policies/) for the receipt requirement.*
+
 ## Before the practicum
 
 Bring something that has reliably broken you before: a person, a video, an

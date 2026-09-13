@@ -24,6 +24,10 @@ can't be scheduled: you can set the conditions for noticing it, but you can't
 force the resolution itself to arrive on a timetable, which is itself part of
 what the week is teaching.
 
+*This week's $100 experience grant lands today. See
+[policies](/policies/) for how to spend it, defer it to a later week, or
+account for it with a receipt.*
+
 ## Before the practicum
 
 Name an actual worry you are currently carrying — something genuinely

@@ -22,6 +22,10 @@ Do the three steps in that order. Writing while you are still cold turns the
 exercise into commentary; writing a day later turns it into memory. Neither is
 what week 1 is for.
 
+*This week's $100 experience grant lands today. See
+[policies](/policies/) for how to spend it, defer it to a later week, or
+account for it with a receipt.*
+
 ## Before the practicum
 
 Pick a cold-water induction you can safely repeat: a cold shower turned to its

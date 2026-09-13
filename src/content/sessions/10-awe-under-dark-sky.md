@@ -23,6 +23,10 @@ week is about the specific and much rarer experience of that fact stopping
 being merely known and starting to be felt — a shift most people can point to
 happening at an exact moment, if they look for it.
 
+*No grant lands this week — funding runs on alternate weeks. If you're
+drawing on money carried over from an earlier week to fund this practicum,
+see [policies](/policies/) for the receipt requirement.*
+
 ## Before the practicum
 
 Find the darkest sky realistically available to you — leave the city if you

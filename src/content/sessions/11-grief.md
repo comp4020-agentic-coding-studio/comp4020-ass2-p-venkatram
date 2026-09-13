@@ -26,6 +26,11 @@ and using either is not a lesser response to this week. If you are in acute
 grief right now, or if this week raises anything you need support with, the
 policies page also names where to go.
 
+Separately, and much less importantly: this week's $100 experience grant
+still lands today. Spending it, deferring it, or leaving it toward another
+week is entirely your call — see [policies](/policies/) for the mechanics,
+and don't let it pressure how you approach the practicum above.
+
 ## Before the practicum
 
 Choose an absence you already carry — a person, a place, a version of your

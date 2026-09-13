@@ -24,6 +24,10 @@ between two people, which makes it the course's first real test of whether
 introspection can say anything true about an experience that isn't entirely
 yours.
 
+*No grant lands this week — funding runs on alternate weeks. If you're
+drawing on money carried over from an earlier week to fund this practicum,
+see [policies](/policies/) for the receipt requirement.*
+
 ## Before the practicum
 
 Choose someone you already trust enough that silence with them wouldn't

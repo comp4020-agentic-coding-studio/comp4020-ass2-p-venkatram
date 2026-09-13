@@ -24,3 +24,8 @@ accordion on the home page and the arc described in `PROCESS.md`.
 - The grief practicum (week 11) always needs its opt-out/alternative path
   live on `/policies/` before it can be treated as ready — check that page
   hasn't drifted if week 11's content changes.
+- The experience grant ($100 on weeks 1, 3, 5, 7, 9, 11; receipts required;
+  spend is deferrable to any of the twelve experiences but must all be
+  accounted for by week 12) is documented in full on `/policies/`, with a
+  one-line pointer in every session and a spec line on the noticing log.
+  Keep the funded-week list in sync across all three if it ever changes.

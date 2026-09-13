@@ -23,6 +23,10 @@ usually treated as an absence worth escaping as fast as possible; this week
 treats it as a state with its own texture, worth staying inside long enough to
 actually look at.
 
+*No grant lands this week — funding runs on alternate weeks. If you're
+drawing on money carried over from an earlier week to fund this practicum,
+see [policies](/policies/) for the receipt requirement.*
+
 ## Before the practicum
 
 Pick a setting with nothing built into it to occupy you — a chair facing a

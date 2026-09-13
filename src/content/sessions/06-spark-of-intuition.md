@@ -22,6 +22,10 @@ the answer that shows up before the steps that supposedly produced it. This
 week asks you to engineer the conditions for that arrival on purpose, rather
 than waiting for it to happen to you.
 
+*No grant lands this week — funding runs on alternate weeks. If you're
+drawing on money carried over from an earlier week to fund this practicum,
+see [policies](/policies/) for the receipt requirement.*
+
 ## Before the practicum
 
 Choose a real problem — a piece of writing that isn't working, a design

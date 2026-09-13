@@ -22,6 +22,8 @@ spec:
     not reconstructed later — entries carry their original timestamp
   - entries that didn't go as planned, or where nothing much happened, are
     included rather than dropped
+  - any entry funded by that week's experience grant has a dated receipt
+    attached, matching the entry's own timestamp
 related:
   - sessions/09-relief-of-resolved-worry
   - sessions/11-grief
@@ -39,6 +41,11 @@ at 11pm annoyed about it" is worth more here than a smoothed-over paragraph
 written in week 12 pretending certainty it didn't have in week 4. Consistency
 matters more than any single entry's polish — the log's value is in what
 changes, or doesn't, across ten tries.
+
+Where an entry was funded by that week's [experience grant](/policies/),
+attach the dated receipt alongside it. A receipt is evidence of the same
+kind as the timestamp: it says the money actually went where the entry
+claims it did, on the day it claims.
 
 ## What you submit
 

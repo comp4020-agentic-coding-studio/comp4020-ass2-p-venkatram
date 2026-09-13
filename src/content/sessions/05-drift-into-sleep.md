@@ -22,6 +22,10 @@ doing the studying is the thing that switches off. This week isn't about
 sleep itself — it's about the last stretch of road before it, the part
 usually lost entirely because nothing is there afterwards to remember it.
 
+*This week's $100 experience grant lands today. See
+[policies](/policies/) for how to spend it, defer it to a later week, or
+account for it with a receipt.*
+
 ## Before the practicum
 
 No screens in the final thirty minutes before you try this — screens keep you

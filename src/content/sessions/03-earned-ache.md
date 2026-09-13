@@ -23,6 +23,10 @@ course; the tiredness that arrives with a finished, visible thing attached to
 it is a different experience wearing the same bodily signs, and this week is
 about catching the difference.
 
+*This week's $100 experience grant lands today. See
+[policies](/policies/) for how to spend it, defer it to a later week, or
+account for it with a receipt.*
+
 ## Before the practicum
 
 Choose labor with an outcome you can point to afterwards, not a workout. A run

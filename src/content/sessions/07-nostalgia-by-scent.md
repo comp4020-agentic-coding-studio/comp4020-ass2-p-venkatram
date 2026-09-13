@@ -21,6 +21,10 @@ relay station the others pass through on their way to it — which is why an
 old smell can deliver a whole scene before you've consciously placed what
 you're smelling. This week uses that shortcut deliberately.
 
+*This week's $100 experience grant lands today. See
+[policies](/policies/) for how to spend it, defer it to a later week, or
+account for it with a receipt.*
+
 ## Before the practicum
 
 Do not pre-select a smell you already know is loaded for you — that turns the
